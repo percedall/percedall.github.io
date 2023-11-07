@@ -872,3 +872,30 @@ textarea.form-control {
   background-color: #fff;
   border-radius: 3px;
 }
+
+button {
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+#modal3::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#modal3 {
+  max-width: 1500ch;
+  background-color: #fff; /* Cambiar el color de fondo del modal si es necesario */
+  border: 1px solid #000; /* Agregar un borde si es necesario */
+  box-shadow: 0 0 10px rgba(141, 44, 44, 0.5); /* Agregar sombra si es necesario */
+  padding: 600px; /* Agregar relleno interno si es necesario */
+}
+
+#modal4::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+#modal4 {
+  max-width: 50ch;
+}

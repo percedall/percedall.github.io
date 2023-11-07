@@ -38,7 +38,7 @@
                 <span></span>
             </div>
         </div>
-
+        
         <header id="header">
             <div class="container-fluid">
                 <div class="navbar">
@@ -177,7 +177,29 @@
             </div>
 
             <div class="section animated-row" data-section="slide04">
+
+                <dialog id="modal3">
+                    <div style="width: 100%; max-width: 600px;">
+                        <video controls style="width: 20%; height: 20%;">
+                            <source src="images/video-bg3.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de videos.
+                        </video>
+                    </div>
+                    <button id="btn-cerrar-modal3">cerrar video</button>
+                </dialog>
+                
+                
+                
+                
+            <dialog id="modal4">
+                <h5>En mantenimiento</h5>
+                <img src="images/sitio-error.jpg" alt="">
+                <button id="btn-cerrar-modal4">cerrar video</button>
+            </dialog>
+
+
                 <div class="section-inner">
+    
                     <div class="row justify-content-center">
                         <div class="col-md-8 wide-col-laptop">
                             <div class="title-block animate" data-animate="fadeInUp">
@@ -214,15 +236,15 @@
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
                                         <div class="portfolio-item">
-                                            <a href="https://app.powerbi.com/links/y4dZZr_t-t?ctid=717b9a79-1b91-41ab-a6f7-a579b46a9b41&pbi_source=linkShare" target="_blank">
-                                                <div class="thumb">
-                                                    <img src="images/item-4.JPG" alt="">
-                                                </div>
-                                                <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                    <h4>Dashboard en Power BI Publicado en novypro</h4>
-                                                    <p>Al hacer clic aquí, accederás al dashboard de Excel pero hecho en Power BI. Sí, hay algún inconveniente contactarse al correo para poder solucionarlo.</p>
-                                                </div>
-                                            </a>
+                                            <div class="thumb">
+                                                <img src="images/item-4.JPG" alt="">
+                                            </div>
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Dashboard en Power BI Publicado en novypro</h4>
+                                                <p>Dashboard de Excel pero hecho en Power BI. Sí, hay algún inconveniente contactarse al correo para poder solucionarlo.</p>
+                                                <button id="btn-abrir-modal3">abrir video</button>
+                                                
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="item animate" data-animate="fadeInUp">
@@ -232,7 +254,8 @@
                                             </div>
                                             <div class="thumb-inner animate" data-animate="fadeInUp">
                                                 <h4>Dashboard en Power BI Publicado en novypro</h4>
-                                                <p>Al hacer clic aquí, accederás a un dashboard en Power BI, mi primer proyecto en Data Growth, con datos de Estadísticas Mineras. Muestra la variación porcentual de inversión entre 2023/2022 en departamentos del Perú.</p>
+                                                <p>Ddashboard en Power BI, mi primer proyecto en Data Growth, con datos de Estadísticas Mineras. Muestra la variación porcentual de inversión entre 2023/2022 en departamentos del Perú.</p>
+                                                <button id="btn-abrir-modal4">abrir video</button>
                                             </div>
                                         </div>
                                     </div>
@@ -315,6 +338,7 @@
     <script src="js/form.js"></script>
 
     <script src="js/custom.js"></script>
+    <script src="js/btn.js"></script>
 
 
   </body>
